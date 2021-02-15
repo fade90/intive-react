@@ -1,0 +1,53 @@
+/* * {
+  border: 1px dotted black;
+} */
+body {
+  background-color:#EEEEEE;
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  height: 350px;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.heading-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a {
+  height: 50%;
+  border-top: 25px;
+}
+
+img {
+  height: 80%;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.heading-details .name {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.heading-details .city {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+  color: gray
+}
+
+.heading-details .country {
+  font-size: 18px;
+  text-align: center;
+  color: gray
+}

@@ -1,0 +1,59 @@
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-detail-enter {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.user-detail-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1000ms, transform 1000ms;
+}
+
+
+.user-detail .heading {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: center;
+}
+
+.user-detail .heading img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
+.user-detail .heading .heading-details {
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+.user-detail .heading .heading-details .name {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.user-detail .heading .heading-details .email {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.user-detail .heading .heading-details .phone {
+    text-align: center;
+    font-size: 18px;
+}
+
+.user-detail .heading .heading-details .street {
+    text-align: center;
+    font-size: 18px;
+}
