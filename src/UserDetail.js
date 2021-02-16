@@ -5,12 +5,10 @@ import './UserDetail.css'
 
 const UserDetail = () => {
     const [inProp, setInProp] = useState(false);
-
     const { state: user } = useLocation()
     const fullName = `${user.name.title}. ${user.name.first} ${user.name.last}`
     const street = `${user.location.street.number} ${user.location.street.name}`
-    const email = `${user.email}`
-    
+        
     useEffect(() => {
         setInProp(true)
     }, [])
@@ -29,7 +27,7 @@ const UserDetail = () => {
                             {fullName}
                         </div>
                         <div className="email">
-                            <a href={`mailto:${email}`}>{email}</a>
+                            <a href={`mailto:${user.email}`}>{user.email}</a>
                         </div>
                         <div className="phone">
                             {user.phone}
