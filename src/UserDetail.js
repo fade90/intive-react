@@ -6,7 +6,7 @@ import "./UserDetail.css";
 const UserDetail = () => {
   const [inProp, setInProp] = useState(false);
   const { state: user } = useLocation();
-  const fullName = `${user.name.title}. ${user.name.first} ${user.name.last}`;
+  const Name = `${user.name.first} ${user.name.last}`;
   const street = `${user.location.street.name}, ${user.location.street.number}`;
 
   useEffect(() => {
@@ -19,7 +19,12 @@ const UserDetail = () => {
         <div className="heading">
           <img src={user.picture.large} />
           <div className="heading-details">
-            <div className="name">{fullName}</div>
+            <div className="name">{Name}</div>
+            <div className="username">
+              <div className="username-title">Username</div>
+              {user.login.username}
+            </div>
+            <hr></hr>
             <div className="email">
               <div className="email-title">Email</div>
               <a href={`mailto:${user.email}`}>{user.email}</a>

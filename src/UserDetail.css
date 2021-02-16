@@ -23,8 +23,8 @@
 }
 
 .user-detail .heading img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }
 
@@ -39,8 +39,19 @@
   text-align: center;
 }
 
-.user-detail .heading .heading-details .email {
+.user-detail .heading .heading-details .username {
   margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.user-detail .heading .heading-details .username-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.user-detail .heading .heading-details .email {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
