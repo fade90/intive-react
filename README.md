@@ -15,6 +15,6 @@ e iniciar con npm start
 
 [http://localhost:3000] para ver en el browser.
 
-#### Heroku
+## Heroku
 
 https://intive-react-fede.herokuapp.com/
