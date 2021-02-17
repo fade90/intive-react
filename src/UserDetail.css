@@ -72,12 +72,12 @@
   font-style: italic;
 }
 
-.user-detail .heading .heading-details .street {
+.user-detail .heading .heading-details .address {
   text-align: center;
   font-size: 18px;
 }
 
-.user-detail .heading .heading-details .street-title {
+.user-detail .heading .heading-details .address-title {
   font-weight: bold;
   font-style: italic;
 }

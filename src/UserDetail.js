@@ -37,8 +37,8 @@ const UserDetail = () => {
               {user.phone}
             </div>
             <hr />
-            <div className="street">
-              <div className="street-title">Address</div>
+            <div className="address">
+              <div className="address-title">Address</div>
               {street}
               <br />
               {city}

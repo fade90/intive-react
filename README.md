@@ -1,6 +1,10 @@
-# Ejercico Intive React
+# Ejercicio Intive React
 
 Ejercicio de ReactJS creado para Intive.
+
+## Para ver en Heroku
+
+https://intive-react-fede.herokuapp.com/
 
 ## Para iniciar App en entorno Local
 
@@ -14,7 +18,3 @@ npm install
 e iniciar con npm start
 
 [http://localhost:3000] para ver en el browser.
-
-## Heroku
-
-https://intive-react-fede.herokuapp.com/
