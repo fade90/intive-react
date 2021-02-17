@@ -34,11 +34,12 @@ const UsersList = () => {
         <InfiniteScroll
           pageStart={0}
           loadMore={fetchPage}
-          loader={<span className="hidden" />}
+          loader={<span key="loader" className="hidden" />}
           hasMore
         >
           {users.map((user) => (
             <User
+              key={user.login.uuid}
               name={user.name}
               location={user.location}
               picture={user.picture}

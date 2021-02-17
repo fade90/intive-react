@@ -22,9 +22,9 @@
   align-items: center;
 }
 
-.user-detail .heading img {
-  height: 200px;
-  width: 200px;
+.user-detail img {
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -80,6 +80,25 @@
 .user-detail .heading .heading-details .street-title {
   font-weight: bold;
   font-style: italic;
+}
+
+.user-detail .heading .heading-details .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-detail .heading .heading-details .btn-container button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.user-detail .heading .heading-details .btn-container button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 hr {
