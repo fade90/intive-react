@@ -17,4 +17,4 @@ abrir proyecto e ingresar en la terminal:
 npm install
 e iniciar con npm start
 
-[http://localhost:3000] para ver en el browser.
+[http://localhost:3000](http://localhost:3000) para ver en el browser.
