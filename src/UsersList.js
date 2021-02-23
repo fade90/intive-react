@@ -11,7 +11,7 @@ const UsersList = () => {
 
   const fetchPage = (page) => {
     return fetch(`https://randomuser.me/api/?page=${page}&results=50&seed=fede`)
-      .then((res) => res.json())
+      .then((response) => response.json())
       .then((result) => {
         setUsers([...users, ...result.results]);
         setInProp(true);
